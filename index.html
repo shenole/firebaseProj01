@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form with Firebase</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>form with firebase</h1>
+  </header>
+  <div class="foundation" id="box-one">
+    <h2>Sign Up</h2>
+    <form id="contact-form">
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <label>Name</lable>
+              <input type="text" name="name" id="name">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>Email</lable>
+              <input type="email" name="email" id="email">
+            </td>
+          </tr>
+        <tbody>
+      </table>
+      <div class="success">Your info has been sent.</div>
+      <button type="submit" name="button" id="button">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
